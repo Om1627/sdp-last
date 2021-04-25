@@ -10,11 +10,7 @@ class Boxim{
         World.add(world,this.body);
         this.image=loadImage("Metal Box.png")
     }
-    score(){
-        while(this.body.speed===20){
-            score++
-        }
-    }
+   
     display(){
         var pos=this.body.position;
         var angle=this.body.angle;
@@ -29,7 +25,7 @@ class Boxim{
             pop();  
         } else {
             World.remove(world,this.body);
-            this.score()
+       
         }
         
         

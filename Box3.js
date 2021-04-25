@@ -25,7 +25,7 @@ class Boxorg{
             pop();  
         } else {
             World.remove(world,this.body);
-            score++
+         
             
         }
         

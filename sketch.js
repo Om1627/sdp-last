@@ -18,6 +18,7 @@ function setup() {
  engine=Engine.create();
  world=engine.world;
  score=0;
+ x=new Ground(600,0,1200,20)
  ball = new Particle(110,450,35);
 slingshot = new Slingshot(ball.body,{x:100,y:475});
 ground = new Ground(600,650,1200,20);
@@ -67,7 +68,7 @@ function draw() {
   background(bg); 
   text("Score "+ score,width-300,50)
   Engine.update(engine); 
- 
+ x.display()
   ground.display();
   ground2.display();
   box1.display();

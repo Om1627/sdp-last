@@ -2,7 +2,7 @@ class Particle {
     constructor(x,y,r) {
       var options={
         restitution:0.5,
-        density:10,
+        density:5,
         resistance:5
         
       }

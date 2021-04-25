@@ -19,11 +19,11 @@ class Boxgreen{
             rectMode(CENTER);
             fill("green");
             strokeWeight(5);
-            image(this.image,0,0,this.width,this.height);  
+            image(this.image,0,0,this.width,this.height); 
             pop();  
         } else {
             World.remove(world,this.body);
-            score++
+            
            
         }
         
